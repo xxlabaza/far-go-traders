@@ -4,13 +4,33 @@
 
 The app is a dummy store for things from the first Fallout game. You can list the products, add them to and manage in a cart, and look at how your order will look like as a JSON request to a server (a real "buy" submit wasn't implemented).
 
-In this project, I used `SwiftUI` and `Combine` frameworks without any additional dependencies (it was a challenge for some reasons).
+In this project, I used `SwiftUI` and `Combine` frameworks without any additional dependencies (it was a challenge due to some reasons).
 
-There is a small complete demo:
+There is a small complete demo (recorder on iphone 12 mini):
+
+> **IMPORTANT:** the GIF below loads slowly because of its size, but I anyway leave it *as is* for better on-device demonstration.
 
 <p align="center">
   <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/demo.gif?raw=true" alt="Demo" />
 </p>
+
+## Contents
+
+- [Requirements](#requirements)
+- [Features](#features)
+  - [Products list from Firebase](#products-list-from-firebase)
+  - [Async images load](#async-images-load)
+  - [Cart icon badge count](#cart-icon-badge-count)
+  - [Swipe to delete from cart](#swipe-to-delete-from-cart)
+  - [Persist cart between launches](#persist-cart-between-launches)
+  - [JSON cart format](#json-cart-format)
+- [Authors](#authors)
+- [License](#license)
+
+## Requirements
+
+* iOS 14.3
+* Swift 5.3
 
 ## Features
 
@@ -70,7 +90,7 @@ To remove a product from a cart - just swipe it out:
   <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/swipe_to_delete.gif?raw=true" alt="Swipe to delete" />
 </p>
 
-### Persist a user's data between launches
+### Persist cart between launches
 
 I use the UserDefaults for storing a user's selected products with their amount in format Product->Amount dictionary.
 
@@ -80,7 +100,7 @@ At first, I would like to use SQLite for that, but the UserDefaults solution (fo
   <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/persist_user_input.gif?raw=true" alt="Persist user's input" />
 </p>
 
-### JSON formatting cart's state
+### JSON cart format
 
 When a user presses a button, a modal view shows. It contains a transformed cart state in the JSON format:
 
