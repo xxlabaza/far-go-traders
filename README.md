@@ -40,7 +40,9 @@ The most valuable features in the project are listed below.
 
 Just for curious, I would like to try the Firebase platform for data storing. I used a free (with a 30 days trial period) **Realtime Database** service and added there all my product items:
 
-![Firebase dashboard](https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/firebase_dashboard.png?raw=true)
+<p align="center">
+  <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/firebase_dashboard.png?raw=true" alt="Firebase dashboard" />
+</p>
 
 The **Realtime Database** has a convenient API, so all my data can be retrieved via simple cURL command:
 
@@ -64,13 +66,17 @@ $> curl https://xxlabaza-products-default-rtdb.europe-west1.firebasedatabase.app
 
 When the app launches - it requests the Firebase's database, and a user sees a "Loading..." message during this load:
 
-![Products loading message](https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/products_loading.png?raw=true)
+<p align="center">
+  <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/products_loading.png?raw=true" alt="Products loading message" />
+</p>
 
 ### Async images load
 
 All images (in the products list or the cart screens) load asynchronously, and during this, a user sees a spinner:
 
-![Products images spinner](https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/products_images_spinner.png?raw=true)
+<p align="center">
+  <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/products_images_spinner.png?raw=true" alt="Products images spinner" />
+</p>
 
 An image is put in the cache after a first download.
 
@@ -104,7 +110,9 @@ At first, I would like to use SQLite for that, but the UserDefaults solution (fo
 
 When a user presses a button, a modal view shows. It contains a transformed cart state in the JSON format:
 
-![JSON cart format](https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/json_cart_format.png?raw=true)
+<p align="center">
+  <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/json_cart_format.png?raw=true" alt="JSON cart format" />
+</p>
 
 ## Authors
 
