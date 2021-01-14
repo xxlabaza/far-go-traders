@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B953A76225AF066C0077AFF9 /* FarGoTradersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A76125AF066C0077AFF9 /* FarGoTradersApp.swift */; };
+		B953A76625AF066F0077AFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B953A76525AF066F0077AFF9 /* Assets.xcassets */; };
+		B953A76925AF066F0077AFF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B953A76825AF066F0077AFF9 /* Preview Assets.xcassets */; };
+		B953A77325AF07570077AFF9 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A77225AF07570077AFF9 /* Spinner.swift */; };
+		B953A77825AF077F0077AFF9 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A77725AF077F0077AFF9 /* AsyncImage.swift */; };
+		B953A77B25AF07A60077AFF9 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A77A25AF07A60077AFF9 /* ImageCache.swift */; };
+		B953A77E25AF07C40077AFF9 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A77D25AF07C40077AFF9 /* ImageLoader.swift */; };
+		B953A78125AF087D0077AFF9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A78025AF087D0077AFF9 /* Product.swift */; };
+		B953A78425AF09270077AFF9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A78325AF09270077AFF9 /* UserData.swift */; };
+		B953A78A25AF09AA0077AFF9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A78925AF09AA0077AFF9 /* CartView.swift */; };
+		B953A78D25AF09E90077AFF9 /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A78C25AF09E90077AFF9 /* ProductsListView.swift */; };
+		B953A79025AF0A0E0077AFF9 /* ProductsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A78F25AF0A0E0077AFF9 /* ProductsLoader.swift */; };
+		B953A79725AF0A7F0077AFF9 /* ProductsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A79625AF0A7F0077AFF9 /* ProductsApi.swift */; };
+		B953A79A25AF0BD40077AFF9 /* Product+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A79925AF0BD40077AFF9 /* Product+init.swift */; };
+		B953A79D25AF10030077AFF9 /* BadgeCartImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A79C25AF10030077AFF9 /* BadgeCartImage.swift */; };
+		B953A7A025AF11560077AFF9 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A79F25AF11560077AFF9 /* ProductItemView.swift */; };
+		B953A7A325AF12C00077AFF9 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A7A225AF12C00077AFF9 /* CartItemView.swift */; };
+		B953A7A825AF77A20077AFF9 /* CartJsonResultModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953A7A725AF77A20077AFF9 /* CartJsonResultModalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B953A75E25AF066B0077AFF9 /* FarGoTraders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarGoTraders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B953A76125AF066C0077AFF9 /* FarGoTradersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarGoTradersApp.swift; sourceTree = "<group>"; };
+		B953A76525AF066F0077AFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B953A76825AF066F0077AFF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B953A76A25AF066F0077AFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B953A77225AF07570077AFF9 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		B953A77725AF077F0077AFF9 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		B953A77A25AF07A60077AFF9 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		B953A77D25AF07C40077AFF9 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B953A78025AF087D0077AFF9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B953A78325AF09270077AFF9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		B953A78925AF09AA0077AFF9 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B953A78C25AF09E90077AFF9 /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
+		B953A78F25AF0A0E0077AFF9 /* ProductsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsLoader.swift; sourceTree = "<group>"; };
+		B953A79625AF0A7F0077AFF9 /* ProductsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsApi.swift; sourceTree = "<group>"; };
+		B953A79925AF0BD40077AFF9 /* Product+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+init.swift"; sourceTree = "<group>"; };
+		B953A79C25AF10030077AFF9 /* BadgeCartImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCartImage.swift; sourceTree = "<group>"; };
+		B953A79F25AF11560077AFF9 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		B953A7A225AF12C00077AFF9 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		B953A7A725AF77A20077AFF9 /* CartJsonResultModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartJsonResultModalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B953A75B25AF066B0077AFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B953A75525AF066B0077AFF9 = {
+			isa = PBXGroup;
+			children = (
+				B953A76025AF066B0077AFF9 /* FarGoTraders */,
+				B953A75F25AF066B0077AFF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B953A75F25AF066B0077AFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B953A75E25AF066B0077AFF9 /* FarGoTraders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B953A76025AF066B0077AFF9 /* FarGoTraders */ = {
+			isa = PBXGroup;
+			children = (
+				B953A76A25AF066F0077AFF9 /* Info.plist */,
+				B953A76125AF066C0077AFF9 /* FarGoTradersApp.swift */,
+				B953A78025AF087D0077AFF9 /* Product.swift */,
+				B953A78325AF09270077AFF9 /* UserData.swift */,
+				B953A76525AF066F0077AFF9 /* Assets.xcassets */,
+				B953A77125AF07460077AFF9 /* Controls */,
+				B953A76725AF066F0077AFF9 /* Preview Content */,
+				B953A78625AF09770077AFF9 /* Screens */,
+			);
+			path = FarGoTraders;
+			sourceTree = "<group>";
+		};
+		B953A76725AF066F0077AFF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B953A76825AF066F0077AFF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B953A77125AF07460077AFF9 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				B953A77625AF07770077AFF9 /* AsyncImage */,
+				B953A77225AF07570077AFF9 /* Spinner.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		B953A77625AF07770077AFF9 /* AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				B953A77725AF077F0077AFF9 /* AsyncImage.swift */,
+				B953A77A25AF07A60077AFF9 /* ImageCache.swift */,
+				B953A77D25AF07C40077AFF9 /* ImageLoader.swift */,
+			);
+			path = AsyncImage;
+			sourceTree = "<group>";
+		};
+		B953A78625AF09770077AFF9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B953A78825AF09930077AFF9 /* Cart */,
+				B953A78725AF09850077AFF9 /* ProductsList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B953A78725AF09850077AFF9 /* ProductsList */ = {
+			isa = PBXGroup;
+			children = (
+				B953A78C25AF09E90077AFF9 /* ProductsListView.swift */,
+				B953A78F25AF0A0E0077AFF9 /* ProductsLoader.swift */,
+				B953A79625AF0A7F0077AFF9 /* ProductsApi.swift */,
+				B953A79925AF0BD40077AFF9 /* Product+init.swift */,
+				B953A79C25AF10030077AFF9 /* BadgeCartImage.swift */,
+				B953A79F25AF11560077AFF9 /* ProductItemView.swift */,
+			);
+			path = ProductsList;
+			sourceTree = "<group>";
+		};
+		B953A78825AF09930077AFF9 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B953A78925AF09AA0077AFF9 /* CartView.swift */,
+				B953A7A225AF12C00077AFF9 /* CartItemView.swift */,
+				B953A7A725AF77A20077AFF9 /* CartJsonResultModalView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B953A75D25AF066B0077AFF9 /* FarGoTraders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B953A76D25AF066F0077AFF9 /* Build configuration list for PBXNativeTarget "FarGoTraders" */;
+			buildPhases = (
+				B953A75A25AF066B0077AFF9 /* Sources */,
+				B953A75B25AF066B0077AFF9 /* Frameworks */,
+				B953A75C25AF066B0077AFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarGoTraders;
+			productName = FarGoTraders;
+			productReference = B953A75E25AF066B0077AFF9 /* FarGoTraders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B953A75625AF066B0077AFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B953A75D25AF066B0077AFF9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = B953A75925AF066B0077AFF9 /* Build configuration list for PBXProject "FarGoTraders" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B953A75525AF066B0077AFF9;
+			productRefGroup = B953A75F25AF066B0077AFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B953A75D25AF066B0077AFF9 /* FarGoTraders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B953A75C25AF066B0077AFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B953A76925AF066F0077AFF9 /* Preview Assets.xcassets in Resources */,
+				B953A76625AF066F0077AFF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B953A75A25AF066B0077AFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B953A7A025AF11560077AFF9 /* ProductItemView.swift in Sources */,
+				B953A7A325AF12C00077AFF9 /* CartItemView.swift in Sources */,
+				B953A78D25AF09E90077AFF9 /* ProductsListView.swift in Sources */,
+				B953A7A825AF77A20077AFF9 /* CartJsonResultModalView.swift in Sources */,
+				B953A79A25AF0BD40077AFF9 /* Product+init.swift in Sources */,
+				B953A78A25AF09AA0077AFF9 /* CartView.swift in Sources */,
+				B953A79725AF0A7F0077AFF9 /* ProductsApi.swift in Sources */,
+				B953A77B25AF07A60077AFF9 /* ImageCache.swift in Sources */,
+				B953A77825AF077F0077AFF9 /* AsyncImage.swift in Sources */,
+				B953A79025AF0A0E0077AFF9 /* ProductsLoader.swift in Sources */,
+				B953A78425AF09270077AFF9 /* UserData.swift in Sources */,
+				B953A77E25AF07C40077AFF9 /* ImageLoader.swift in Sources */,
+				B953A79D25AF10030077AFF9 /* BadgeCartImage.swift in Sources */,
+				B953A77325AF07570077AFF9 /* Spinner.swift in Sources */,
+				B953A76225AF066C0077AFF9 /* FarGoTradersApp.swift in Sources */,
+				B953A78125AF087D0077AFF9 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B953A76B25AF066F0077AFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B953A76C25AF066F0077AFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B953A76E25AF066F0077AFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FarGoTraders/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BU6982BUJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FarGoTraders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxlabaza.FarGoTraders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B953A76F25AF066F0077AFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FarGoTraders/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BU6982BUJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FarGoTraders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxlabaza.FarGoTraders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B953A75925AF066B0077AFF9 /* Build configuration list for PBXProject "FarGoTraders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B953A76B25AF066F0077AFF9 /* Debug */,
+				B953A76C25AF066F0077AFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B953A76D25AF066F0077AFF9 /* Build configuration list for PBXNativeTarget "FarGoTraders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B953A76E25AF066F0077AFF9 /* Debug */,
+				B953A76F25AF066F0077AFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B953A75625AF066B0077AFF9 /* Project object */;
+}
