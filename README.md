@@ -8,7 +8,7 @@ In this project, I used `SwiftUI` and `Combine` frameworks without any additiona
 
 There is a small complete demo:
 
-![Demo](https://github.com/xxlabaza/far-go-traders/blob/master/readme/gifs/demo.gif?raw=true)
+![Demo](https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/demo.gif?raw=true)
 
 ## Features
 
@@ -18,7 +18,7 @@ The most valuable features in the project are listed below.
 
 Just for curious, I would like to try the Firebase platform for data storing. I used a free (with a 30 days trial period) **Realtime Database** service and added there all my product items:
 
-![Firebase dashboard](https://github.com/xxlabaza/far-go-traders/blob/master/readme/images/firebase_dashboard.png?raw=true)
+![Firebase dashboard](https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/firebase_dashboard.png?raw=true)
 
 The **Realtime Database** has a convenient API, so all my data can be retrieved via simple cURL command:
 
@@ -42,13 +42,13 @@ $> curl https://xxlabaza-products-default-rtdb.europe-west1.firebasedatabase.app
 
 When the app launches - it requests the Firebase's database, and a user sees a "Loading..." message during this load:
 
-![Products loading message](https://github.com/xxlabaza/far-go-traders/blob/master/readme/images/products_loading.png?raw=true)
+![Products loading message](https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/products_loading.png?raw=true)
 
 ### Async images load
 
 All images (in the products list or the cart screens) load asynchronously, and during this, a user sees a spinner:
 
-![Products images spinner](https://github.com/xxlabaza/far-go-traders/blob/master/readme/images/products_images_spinner.png?raw=true)
+![Products images spinner](https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/products_images_spinner.png?raw=true)
 
 An image is put in the cache after a first download.
 
@@ -56,13 +56,13 @@ An image is put in the cache after a first download.
 
 For better user experience, the cart's icon is dynamic - it disables (doesn't allow to go to a cart) when the cart is empty and shows the number of items in it (not by SKU, but the whole amount of the products):
 
-![Cart icon badge count](https://github.com/xxlabaza/far-go-traders/blob/master/readme/gifs/cart_icon_badge_count.gif?raw=true)
+![Cart icon badge count](https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/cart_icon_badge_count.gif?raw=true)
 
 ### Swipe to delete from cart
 
 To remove a product from a cart - just swipe it out:
 
-![Swipe to delete](https://github.com/xxlabaza/far-go-traders/blob/master/readme/gifs/swipe_to_delete.gif?raw=true)
+![Swipe to delete](https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/swipe_to_delete.gif?raw=true)
 
 ### Persist a user's data between launches
 
@@ -70,13 +70,13 @@ I use the UserDefaults for storing a user's selected products with their amount 
 
 At first, I would like to use SQLite for that, but the UserDefaults solution (for this app) turned out to be better and much more cleaner.
 
-![Persist user's input](https://github.com/xxlabaza/far-go-traders/blob/master/readme/gifs/persist_user_input.gif?raw=true)
+![Persist user's input](https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/persist_user_input.gif?raw=true)
 
 ### JSON formatting cart's state
 
 When a user presses a button, a modal view shows. It contains a transformed cart state in the JSON format:
 
-![JSON cart format](https://github.com/xxlabaza/far-go-traders/blob/master/readme/images/json_cart_format.png?raw=true)
+![JSON cart format](https://github.com/xxlabaza/far-go-traders/blob/main/readme/images/json_cart_format.png?raw=true)
 
 ## Authors
 
