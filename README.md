@@ -8,7 +8,9 @@ In this project, I used `SwiftUI` and `Combine` frameworks without any additiona
 
 There is a small complete demo:
 
-![Demo](https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/demo.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/demo.gif?raw=true" alt="Demo" />
+</p>
 
 ## Features
 
@@ -56,13 +58,17 @@ An image is put in the cache after a first download.
 
 For better user experience, the cart's icon is dynamic - it disables (doesn't allow to go to a cart) when the cart is empty and shows the number of items in it (not by SKU, but the whole amount of the products):
 
-![Cart icon badge count](https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/cart_icon_badge_count.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/cart_icon_badge_count.gif?raw=true" alt="Cart icon badge count" />
+</p>
 
 ### Swipe to delete from cart
 
 To remove a product from a cart - just swipe it out:
 
-![Swipe to delete](https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/swipe_to_delete.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/swipe_to_delete.gif?raw=true" alt="Swipe to delete" />
+</p>
 
 ### Persist a user's data between launches
 
@@ -70,7 +76,9 @@ I use the UserDefaults for storing a user's selected products with their amount 
 
 At first, I would like to use SQLite for that, but the UserDefaults solution (for this app) turned out to be better and much more cleaner.
 
-![Persist user's input](https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/persist_user_input.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/xxlabaza/far-go-traders/blob/main/readme/gifs/persist_user_input.gif?raw=true" alt="Persist user's input" />
+</p>
 
 ### JSON formatting cart's state
 
